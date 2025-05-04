@@ -1,0 +1,9 @@
+- html page structure
+- headings
+- paragraphs
+- anchor elements/links
+- lists
+- forms
+- images
+- buttons
+- spans

@@ -8,4 +8,4 @@ Covered Topics:
 - Media Queries
 - Pseudo Selector(hover), Pseudo Elements(Before, After)
 - Animations (keybrames)
-- BEM CSS (A Naming Convention/Method for best practices) -> block\_\_element--modifier
+- BEM CSS (A Naming Convention/Method for best practices) -> block__element--modifier

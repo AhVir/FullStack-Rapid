@@ -53,6 +53,8 @@ div#div1 {
     left: 30%;
     top: 30px;
     /* bottom: 2%; */
+
+    animation: UpAndDown 1000ms infinite alternate-reverse;
 }
 
 /* !important -> the most specific one can be, but it's a bad practice */
@@ -100,4 +102,86 @@ p.div2p2 {
     /* position: fixed; */
     bottom: 50%;
     right: 50%;
+}
+
+@media (max-width: 640px) {
+    p.div2p2 {
+        font-size: 30px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    div#div1 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 558px) {
+    p.div2p2 {
+        font-size: 25px;
+    }
+    
+    h1 {
+        font-size: 15px;
+    }
+
+    div#div1 {
+        font-size: 10px;
+    }
+}
+
+
+#btn1id {
+    position: relative;
+    left: 50%
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btncls {
+    background-color: rgba(7, 177, 177, 1);
+    transition: padding 250ms;
+}
+
+.btncls:hover{
+    background-color: rgba(7, 177, 177, .5);
+    padding: 2px;
+}
+
+.btncls::before {
+    content: "This is the ";
+    background-color: aqua;
+}
+
+
+#Bye::after {
+    content: " Untill We meet again!";
+    background-color: aquamarine;
+
+    font-size: xx-large;
+    font-weight: 600;
+
+    margin: 3px;
+}
+
+
+.bye {
+    animation: UpAndDown 1000ms infinite alternate-reverse;
+}
+
+
+
+/* Defining Ups & Down Animation */
+@keyframes UpAndDown {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(18px);
+    }
 }

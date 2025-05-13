@@ -1,0 +1,21 @@
+.box {
+    color: brown;
+    background-color: aqua;
+
+    font-size: 20px;
+
+    width: 400px;
+    height: 200px;
+    border: 10px dotted black;
+
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+
+    margin-top: 50px;
+    margin-left: 30px;
+
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    /* box-sizing: padding-box; */
+}

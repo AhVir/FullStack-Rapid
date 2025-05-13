@@ -3,4 +3,5 @@ Covered Topics:
 - Properties: Colors, Size, Fonts & Borders
 - Specificity & Selectors
 - Box Model
-- Properties: Display, Position
+- Properties: Display (Inline, Block), Position (Static, Relative, Absolute, Fixed, Sticky)
+- Media Queries

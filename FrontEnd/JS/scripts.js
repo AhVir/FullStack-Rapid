@@ -54,4 +54,29 @@ console.log(str != num1)
 
 
 
+
+// Conditional Statements
+let isTrue = false
+let age = 11
+
+if(isTrue === true) console.log("It's true");
+else if(age >= 12) console.log("At least you're 12");
+else console.log(`It's false, also you're ${age} years old`);
+
+
+// Falsey Values
+// -> Values that considered false when converted into booleans
+// undefined, null, NaN, 0, "", false
+
+// Truthy Values
+// -> Values that considreed true when converted into booleans
+// 1, 1000, "null", "false", "Tanvir Ahmed", {}, []
+// {} -> empty array
+// [] -> empty objects
+
+
+// Ternary Operator
+("Ahmed") ? console.log("hi") : console.log("bye");
+
+
 // document.querySelector('body').style.backgroundColor = 'red'

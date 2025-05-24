@@ -43,11 +43,14 @@ let USD = 1200;
 let AUS = USD * 1.5;
 console.log("AUS Currencey: " + AUS);
 
-// == vs ===
+// '==' vs '==='
 let str = "5"
 let num1 = 5
 console.log(str == num1)   // -> output: true
 console.log(str === num1)  // => output: false (checks value + datatype)
+
+console.log(str !== num1)
+console.log(str != num1)
 
 
 
